@@ -15,14 +15,14 @@ protocol AoCTest {
 main()
 
 func main() {
-    let day = Day1A()
+//    let day = Day1A()
 //    let day = Day1B()
 //    let day = Day2A()
 //    let day = Day2B()
 //    let day = Day3A()
 //    let day = Day3B()
 //    let day = Day4A()
-//    let day = Day4B()
+    let day = Day4B()
 //    let day = Day5A()
 //    let day = Day5B()
     
