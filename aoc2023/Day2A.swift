@@ -12,7 +12,7 @@ fileprivate struct Game {
     let rounds: [Round]
 }
 
-fileprivate typealias Round = (red: Int, blue: Int, green: Int)
+fileprivate typealias Round = (red: Int, green: Int, blue: Int)
 
 class Day2A {
     private func run(path: String) -> String {
@@ -23,7 +23,7 @@ class Day2A {
         games.forEach {
             var ok = true
             for round in $0.rounds {
-                if round.green > 13 || round.red > 12 || round.blue > 14 {
+                if round.red > 12 || round.green > 13 || round.blue > 14 {
                     ok = false
                     break
                 }
@@ -64,8 +64,8 @@ class Day2A {
     
     private func parse(round: [String]) -> Round {
         var red = 0
-        var blue = 0
         var green = 0
+        var blue = 0
     
         for r in round {
             if r.contains("red") {
@@ -80,7 +80,7 @@ class Day2A {
             }
         }
     
-        return (red: red, blue: blue, green: green)
+        return (red: red, green: green, blue: blue)
     }
 }
 
