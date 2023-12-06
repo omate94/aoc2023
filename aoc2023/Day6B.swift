@@ -9,12 +9,39 @@ import Foundation
 
 class Day6B {
     private func run(path: String) -> String {
-        return "No Result"
+        let race = parse(path: path)
+        var result: [Int] = []
+        
+        var isOver = false
+        for i in 0..<race.time+1 {
+            if i * (race.time - i) > race.distance {
+                isOver = true
+                result.append(i)
+            } else if isOver {
+                break
+            }
+        }
+        
+        return String(result.count)
     }
     
-    private func parse(path: String)  {
+    private func parse(path: String) -> Race {
         let fileURL = URL(fileURLWithPath: path)
-        try! String(contentsOf: fileURL, encoding: .utf8).components(separatedBy: "\n")
+        let input = try! String(contentsOf: fileURL, encoding: .utf8).components(separatedBy: "\n")
+        let timeStr = input[0]
+            .replacingOccurrences(of: "Time:", with: "")
+            .trimmingCharacters(in: [" "])
+            .replacingOccurrences(of: " ", with: "")
+
+        let distanceStr = input[1]
+            .replacingOccurrences(of: "Distance:", with: "")
+            .trimmingCharacters(in: [" "])
+            .replacingOccurrences(of: " ", with: "")
+        
+        let time = Int(timeStr)!
+        let distance = Int(distanceStr)!
+        
+        return Race(time: time, distance: distance)
     }
 }
 
