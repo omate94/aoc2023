@@ -20,6 +20,8 @@
 		C82278EB2B1DF9AC003C61A5 /* Day5B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82278EA2B1DF9AC003C61A5 /* Day5B.swift */; };
 		C83946182B20637500D873E6 /* Day6A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83946172B20637500D873E6 /* Day6A.swift */; };
 		C839461A2B20637F00D873E6 /* Day6B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83946192B20637F00D873E6 /* Day6B.swift */; };
+		C839461C2B21B99E00D873E6 /* Day7A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839461B2B21B99E00D873E6 /* Day7A.swift */; };
+		C839461E2B21B9AC00D873E6 /* Day7B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839461D2B21B9AC00D873E6 /* Day7B.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,8 @@
 		C82278EA2B1DF9AC003C61A5 /* Day5B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5B.swift; sourceTree = "<group>"; };
 		C83946172B20637500D873E6 /* Day6A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6A.swift; sourceTree = "<group>"; };
 		C83946192B20637F00D873E6 /* Day6B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6B.swift; sourceTree = "<group>"; };
+		C839461B2B21B99E00D873E6 /* Day7A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7A.swift; sourceTree = "<group>"; };
+		C839461D2B21B9AC00D873E6 /* Day7B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7B.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				C82278EA2B1DF9AC003C61A5 /* Day5B.swift */,
 				C83946172B20637500D873E6 /* Day6A.swift */,
 				C83946192B20637F00D873E6 /* Day6B.swift */,
+				C839461B2B21B99E00D873E6 /* Day7A.swift */,
+				C839461D2B21B9AC00D873E6 /* Day7B.swift */,
 			);
 			path = aoc2023;
 			sourceTree = "<group>";
@@ -158,9 +164,11 @@
 			files = (
 				C82278EB2B1DF9AC003C61A5 /* Day5B.swift in Sources */,
 				C82278D92B1DF05C003C61A5 /* Day1A.swift in Sources */,
+				C839461C2B21B99E00D873E6 /* Day7A.swift in Sources */,
 				C82278E52B1DF985003C61A5 /* Day4A.swift in Sources */,
 				C82278DB2B1DF79F003C61A5 /* Day1B.swift in Sources */,
 				C82278DF2B1DF900003C61A5 /* Day2B.swift in Sources */,
+				C839461E2B21B9AC00D873E6 /* Day7B.swift in Sources */,
 				C82278E72B1DF992003C61A5 /* Day4B.swift in Sources */,
 				C82278D22B1DF006003C61A5 /* main.swift in Sources */,
 				C839461A2B20637F00D873E6 /* Day6B.swift in Sources */,

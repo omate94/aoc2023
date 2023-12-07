@@ -7,6 +7,11 @@
 
 import Foundation
 
+private struct Race {
+    let time: Int
+    let distance: Int
+}
+
 class Day6B {
     private func run(path: String) -> String {
         let race = parse(path: path)

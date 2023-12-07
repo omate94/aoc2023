@@ -9,7 +9,7 @@ import Foundation
 
 fileprivate struct Card {
     let id: Int
-    let winers: [Int]
+    let winners: [Int]
     let nums: [Int]
 }
 
@@ -25,7 +25,7 @@ class Day4B {
         for card in cards {
             var count = 0
             card.nums.forEach {
-                if card.winers.contains($0) {
+                if card.winners.contains($0) {
                     count = count + 1
                 }
             }
@@ -61,9 +61,9 @@ class Day4B {
                 $0.components(separatedBy: "|")
             }
             .map {
-                let winers = $0[0].trimmingCharacters(in: [" "]).components(separatedBy: " ").filter { $0 != "" }.map {Int($0)!}.sorted()
+                let winners = $0[0].trimmingCharacters(in: [" "]).components(separatedBy: " ").filter { $0 != "" }.map {Int($0)!}.sorted()
                 let nums = $0[1].trimmingCharacters(in: [" "]).components(separatedBy: " ").filter { $0 != "" }.map {Int($0)!}.sorted()
-                let card = Card(id: cardID, winers: winers, nums: nums)
+                let card = Card(id: cardID, winners: winners, nums: nums)
                 cardID = cardID + 1
                 return card
             }
