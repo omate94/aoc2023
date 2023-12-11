@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842946542B26446900F05509 /* Day9A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842946532B26446900F05509 /* Day9A.swift */; };
+		842946562B26447600F05509 /* Day9B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842946552B26447600F05509 /* Day9B.swift */; };
+		842946582B26448800F05509 /* Day10A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842946572B26448800F05509 /* Day10A.swift */; };
+		8429465A2B26449100F05509 /* Day10B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842946592B26449100F05509 /* Day10B.swift */; };
+		8429465C2B26449B00F05509 /* Day11A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429465B2B26449B00F05509 /* Day11A.swift */; };
+		8429465E2B2644AC00F05509 /* Day11B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429465D2B2644AC00F05509 /* Day11B.swift */; };
+		842946612B276A1C00F05509 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842946602B276A1C00F05509 /* Array+Extensions.swift */; };
 		C82278D22B1DF006003C61A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82278D12B1DF006003C61A5 /* main.swift */; };
 		C82278D92B1DF05C003C61A5 /* Day1A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82278D82B1DF05C003C61A5 /* Day1A.swift */; };
 		C82278DB2B1DF79F003C61A5 /* Day1B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82278DA2B1DF79F003C61A5 /* Day1B.swift */; };
@@ -39,6 +46,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		842946532B26446900F05509 /* Day9A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9A.swift; sourceTree = "<group>"; };
+		842946552B26447600F05509 /* Day9B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9B.swift; sourceTree = "<group>"; };
+		842946572B26448800F05509 /* Day10A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10A.swift; sourceTree = "<group>"; };
+		842946592B26449100F05509 /* Day10B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10B.swift; sourceTree = "<group>"; };
+		8429465B2B26449B00F05509 /* Day11A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11A.swift; sourceTree = "<group>"; };
+		8429465D2B2644AC00F05509 /* Day11B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11B.swift; sourceTree = "<group>"; };
+		842946602B276A1C00F05509 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		C82278CE2B1DF006003C61A5 /* aoc2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aoc2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82278D12B1DF006003C61A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C82278D82B1DF05C003C61A5 /* Day1A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1A.swift; sourceTree = "<group>"; };
@@ -70,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8429465F2B276A0700F05509 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				842946602B276A1C00F05509 /* Array+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C82278C52B1DF006003C61A5 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +111,7 @@
 		C82278D02B1DF006003C61A5 /* aoc2023 */ = {
 			isa = PBXGroup;
 			children = (
+				8429465F2B276A0700F05509 /* Extensions */,
 				C82278D12B1DF006003C61A5 /* main.swift */,
 				C82278D82B1DF05C003C61A5 /* Day1A.swift */,
 				C82278DA2B1DF79F003C61A5 /* Day1B.swift */,
@@ -106,6 +129,12 @@
 				C839461D2B21B9AC00D873E6 /* Day7B.swift */,
 				C839461F2B2308EC00D873E6 /* Day8A.swift */,
 				C83946212B231F1400D873E6 /* Day8B.swift */,
+				842946532B26446900F05509 /* Day9A.swift */,
+				842946552B26447600F05509 /* Day9B.swift */,
+				842946572B26448800F05509 /* Day10A.swift */,
+				842946592B26449100F05509 /* Day10B.swift */,
+				8429465B2B26449B00F05509 /* Day11A.swift */,
+				8429465D2B2644AC00F05509 /* Day11B.swift */,
 			);
 			path = aoc2023;
 			sourceTree = "<group>";
@@ -172,18 +201,25 @@
 				C82278D92B1DF05C003C61A5 /* Day1A.swift in Sources */,
 				C83946222B231F1400D873E6 /* Day8B.swift in Sources */,
 				C839461C2B21B99E00D873E6 /* Day7A.swift in Sources */,
+				842946612B276A1C00F05509 /* Array+Extensions.swift in Sources */,
 				C82278E52B1DF985003C61A5 /* Day4A.swift in Sources */,
 				C82278DB2B1DF79F003C61A5 /* Day1B.swift in Sources */,
 				C82278DF2B1DF900003C61A5 /* Day2B.swift in Sources */,
 				C839461E2B21B9AC00D873E6 /* Day7B.swift in Sources */,
 				C82278E72B1DF992003C61A5 /* Day4B.swift in Sources */,
+				8429465C2B26449B00F05509 /* Day11A.swift in Sources */,
 				C82278D22B1DF006003C61A5 /* main.swift in Sources */,
 				C839461A2B20637F00D873E6 /* Day6B.swift in Sources */,
 				C83946182B20637500D873E6 /* Day6A.swift in Sources */,
+				8429465E2B2644AC00F05509 /* Day11B.swift in Sources */,
+				842946562B26447600F05509 /* Day9B.swift in Sources */,
 				C82278E92B1DF99F003C61A5 /* Day5A.swift in Sources */,
 				C82278E32B1DF97A003C61A5 /* Day3B.swift in Sources */,
 				C83946202B2308ED00D873E6 /* Day8A.swift in Sources */,
 				C82278E12B1DF970003C61A5 /* Day3A.swift in Sources */,
+				8429465A2B26449100F05509 /* Day10B.swift in Sources */,
+				842946582B26448800F05509 /* Day10A.swift in Sources */,
+				842946542B26446900F05509 /* Day9A.swift in Sources */,
 				C82278DD2B1DF8F4003C61A5 /* Day2A.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NUA29C2B66;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -319,7 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NUA29C2B66;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
