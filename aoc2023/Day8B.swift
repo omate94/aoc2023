@@ -81,7 +81,7 @@ extension Day8B: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/8b_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/8b.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/8.txt")
         }
     }
 }

@@ -41,6 +41,7 @@ func main() {
 //    let day = Day11A()
 //    let day = Day11B()
 
-    let result = day.execute(test: false)
+    
+    let result = day.execute(test: true)
     print("Test result: ", result)
 }

@@ -75,7 +75,7 @@ extension Day4B: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/4_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/4b.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/4.txt")
         }
     }
 }

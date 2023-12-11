@@ -120,7 +120,7 @@ extension Day7A: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/7_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/7a.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/7.txt")
         }
     }
 }

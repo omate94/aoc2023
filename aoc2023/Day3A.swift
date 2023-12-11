@@ -234,7 +234,7 @@ extension Day3A: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/3_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/3a.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/3.txt")
         }
     }
 }

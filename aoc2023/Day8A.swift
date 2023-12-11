@@ -58,7 +58,7 @@ extension Day8A: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/8a_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/8a.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/8.txt")
         }
     }
 }

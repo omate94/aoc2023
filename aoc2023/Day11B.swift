@@ -93,7 +93,7 @@ extension Day11B: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/11_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/11a.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/11.txt")
         }
     }
 }

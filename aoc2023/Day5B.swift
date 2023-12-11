@@ -199,7 +199,7 @@ extension Day5B: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/5_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/5b.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/5.txt")
         }
     }
 }

@@ -16,7 +16,11 @@ class Day10B {
 extension Day10B: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            return run(path: "/Users/olahmate/aoc2023/tests/10_test.txt")
+            let test1Result = run(path: "/Users/olahmate/aoc2023/tests/10b_test_1.txt")
+            let test2Result = run(path: "/Users/olahmate/aoc2023/tests/10b_test_2.txt")
+            let test3Result = run(path: "/Users/olahmate/aoc2023/tests/10b_test_3.txt")
+            let test4Result = run(path: "/Users/olahmate/aoc2023/tests/10b_test_4.txt")
+            return "Test 1: \(test1Result), Test 2: \(test2Result), Test 3: \(test1Result), Test 4: \(test2Result)"
         } else {
             return run(path: "/Users/olahmate/aoc2023/tests/10.txt")
         }

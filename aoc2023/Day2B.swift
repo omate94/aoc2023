@@ -96,7 +96,7 @@ extension Day2B: AoCTest {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/2_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/2b.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2.txt")
         }
     }
 }
