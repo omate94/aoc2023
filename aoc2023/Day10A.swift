@@ -97,26 +97,28 @@ class Day10A {
         let top = map[start.y-1][start.x]
         let bottom = map[start.y+1][start.x]
         
-        var forward: Step?
-        var backward: Step?
+        var validSteps: [Step] = []
         
         if right == "-" || right == "J" || right == "7" {
-            forward = Step(x: start.x+1, y: start.y)
-        } else if top == "|" || top == "F" || top == "7" {
-            forward = Step(x: start.x, y: start.y-1)
-        } else {
-            fatalError("Something went wrong")
+            validSteps.append(Step(x: start.x+1, y: start.y))
+        }
+        
+        if top == "|" || top == "F" || top == "7" {
+            validSteps.append(Step(x: start.x, y: start.y-1))
         }
         
         if left == "-" || left == "L" || left == "F" {
-            backward = Step(x: start.x-1, y: start.y)
-        } else if bottom == "|" || bottom == "L" || bottom == "J" {
-            backward = Step(x: start.x, y: start.y+1)
-        } else {
-            fatalError("Something went wrong")
+            validSteps.append(Step(x: start.x-1, y: start.y))
         }
         
-        return (forward!, backward!)
+        if bottom == "|" || bottom == "L" || bottom == "J" {
+            validSteps.append(Step(x: start.x, y: start.y+1))
+        }
+
+        if validSteps.count != 2 {
+            fatalError("Something went wtong")
+        }
+        return (validSteps.first!, validSteps.last!)
     }
     
     private func parse(path: String) -> [[String]] {
