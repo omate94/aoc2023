@@ -31,6 +31,7 @@
 		C839461E2B21B9AC00D873E6 /* Day7B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839461D2B21B9AC00D873E6 /* Day7B.swift */; };
 		C83946202B2308ED00D873E6 /* Day8A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839461F2B2308EC00D873E6 /* Day8A.swift */; };
 		C83946222B231F1400D873E6 /* Day8B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83946212B231F1400D873E6 /* Day8B.swift */; };
+		C8E5B6772B2A51D60086BD92 /* Day13A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5B6762B2A51D60086BD92 /* Day13A.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		C839461D2B21B9AC00D873E6 /* Day7B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7B.swift; sourceTree = "<group>"; };
 		C839461F2B2308EC00D873E6 /* Day8A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8A.swift; sourceTree = "<group>"; };
 		C83946212B231F1400D873E6 /* Day8B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8B.swift; sourceTree = "<group>"; };
+		C8E5B6762B2A51D60086BD92 /* Day13A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13A.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				842946592B26449100F05509 /* Day10B.swift */,
 				8429465B2B26449B00F05509 /* Day11A.swift */,
 				8429465D2B2644AC00F05509 /* Day11B.swift */,
+				C8E5B6762B2A51D60086BD92 /* Day13A.swift */,
 			);
 			path = aoc2023;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				842946562B26447600F05509 /* Day9B.swift in Sources */,
 				C82278E92B1DF99F003C61A5 /* Day5A.swift in Sources */,
 				C82278E32B1DF97A003C61A5 /* Day3B.swift in Sources */,
+				C8E5B6772B2A51D60086BD92 /* Day13A.swift in Sources */,
 				C83946202B2308ED00D873E6 /* Day8A.swift in Sources */,
 				C82278E12B1DF970003C61A5 /* Day3A.swift in Sources */,
 				8429465A2B26449100F05509 /* Day10B.swift in Sources */,
