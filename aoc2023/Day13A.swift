@@ -9,11 +9,10 @@ import Foundation
 
 class Day13A {
     private func run(path: String) -> String {
-        let maps = parse(path: path).map { invertMap(map: $0)}
+        let maps = parse(path: path).map { rotateMap(map: $0)}
         var rows: [Int] = []
         var columns: [Int] = []
         var horizontals: [[String]] = []
-        var error: [[String]] = []
 
         maps.forEach {
             if let val = getIndex(map: $0) {
@@ -23,13 +22,11 @@ class Day13A {
             }
         }
 
-        horizontals = horizontals.map { invertMap(map: $0)}
+        horizontals = horizontals.map { rotateMap(map: $0)}
         
         horizontals.forEach {
             if let val = getIndex(map: $0) {
                 rows.append(val)
-            } else {
-                error.append($0)
             }
         }
 
@@ -38,7 +35,7 @@ class Day13A {
         return String(result)
     }
 
-    func invertMap(map: [String]) -> [String] {
+    func rotateMap(map: [String]) -> [String] {
         var result: [String] = []
         for i in 0..<map[0].count {
             var str = ""
