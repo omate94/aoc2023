@@ -16,7 +16,7 @@ class Day15A {
             if let val = cache[part] {
                 return res + val
             } else {
-                let val = calculatHash(characters: part)
+                let val = calculateHash(string: part)
                 cache[part] = val
                 return res + val
             }
@@ -25,8 +25,8 @@ class Day15A {
         return String(result)
     }
     
-    func calculatHash(characters: String) -> Int {
-        let asciiValues: [UInt8] = characters.compactMap(\.asciiValue)
+    func calculateHash(string: String) -> Int {
+        let asciiValues: [UInt8] = string.compactMap(\.asciiValue)
         
         let result = asciiValues.reduce(0, { (res, value) in
             (res + Int(value)) * 17 % 256
