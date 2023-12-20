@@ -35,6 +35,7 @@
 		C8E5B6792B2B58BC0086BD92 /* Day14A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5B6782B2B58BC0086BD92 /* Day14A.swift */; };
 		C8E5B67B2B3329070086BD92 /* Day15A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5B67A2B3329070086BD92 /* Day15A.swift */; };
 		C8E5B67D2B337BFF0086BD92 /* Day16A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5B67C2B337BFF0086BD92 /* Day16A.swift */; };
+		C8E5B67F2B3395FC0086BD92 /* Day16B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5B67E2B3395FC0086BD92 /* Day16B.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,7 @@
 		C8E5B6782B2B58BC0086BD92 /* Day14A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14A.swift; sourceTree = "<group>"; };
 		C8E5B67A2B3329070086BD92 /* Day15A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15A.swift; sourceTree = "<group>"; };
 		C8E5B67C2B337BFF0086BD92 /* Day16A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16A.swift; sourceTree = "<group>"; };
+		C8E5B67E2B3395FC0086BD92 /* Day16B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16B.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				C8E5B6782B2B58BC0086BD92 /* Day14A.swift */,
 				C8E5B67A2B3329070086BD92 /* Day15A.swift */,
 				C8E5B67C2B337BFF0086BD92 /* Day16A.swift */,
+				C8E5B67E2B3395FC0086BD92 /* Day16B.swift */,
 			);
 			path = aoc2023;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				8429465C2B26449B00F05509 /* Day11A.swift in Sources */,
 				C82278D22B1DF006003C61A5 /* main.swift in Sources */,
 				C839461A2B20637F00D873E6 /* Day6B.swift in Sources */,
+				C8E5B67F2B3395FC0086BD92 /* Day16B.swift in Sources */,
 				C83946182B20637500D873E6 /* Day6A.swift in Sources */,
 				8429465E2B2644AC00F05509 /* Day11B.swift in Sources */,
 				842946562B26447600F05509 /* Day9B.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  Day16A.swift
+//  Day16B.swift
 //  aoc2023
 //
 //  Created by Oláh Máté on 2023. 12. 20..
@@ -21,12 +21,30 @@ private struct Beam {
     let direction: Direction
 }
 
-class Day16A {
+class Day16B {
     private func run(path: String) -> String {
         let map = parse(path: path)
+        var currentMax = 0
+        
+        for i in 0..<map.first!.count {
+            let topRowItemVal = calculateTiles(map: map, startPosition: Position(x: i, y: 0), direction: .down)
+            let bottomRowItemVal = calculateTiles(map: map, startPosition: Position(x: i, y: map.count - 1), direction: .up)
+            currentMax = max(topRowItemVal, bottomRowItemVal, currentMax)
+        }
+        
+        for i in 0..<map.count {
+            let leftRowItemVal = calculateTiles(map: map, startPosition: Position(x: 0, y: i), direction: .right)
+            let rightRowItemVal = calculateTiles(map: map, startPosition: Position(x: map.first!.count - 1, y: i), direction: .left)
+            currentMax = max(leftRowItemVal, rightRowItemVal, currentMax)
+        }
+        
+        return String(currentMax)
+    }
+    
+    private func calculateTiles(map: [[String]], startPosition: Position, direction: Direction) -> Int {
         var beams: [Beam] = []
-        var visitedTiles: [Position:[Direction]] = [:]
-        let initialBeam = Beam(position: Position(x: 0, y: 0), direction: .right)
+        var visitedTiles: [Position: [Direction]] = [:]
+        let initialBeam = Beam(position: startPosition, direction: direction)
         beams.append(initialBeam)
         visitedTiles[initialBeam.position] = [initialBeam.direction]
         
@@ -54,7 +72,7 @@ class Day16A {
             beams = tmpBeams
         }
         
-        return String(visitedTiles.keys.count)
+        return visitedTiles.keys.count
     }
     
     private func makeStep(map: [[String]], beam: Beam) -> [Beam] {
@@ -165,7 +183,7 @@ class Day16A {
     }
 }
 
-extension Day16A: AoCTest {
+extension Day16B: AoCTest {
     func execute(test: Bool) -> String {
         if test {
             return run(path: "/Users/olahmate/aoc2023/tests/16_test.txt")
