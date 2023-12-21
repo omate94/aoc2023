@@ -10,19 +10,19 @@ import Foundation
 class Day14A {
     private func run(path: String) -> String {
         let maps = parse(path: path)
-        var titledMap: [[String]] =  Array(repeating: Array(repeating: "", count: maps.count), count: maps.count)
+        var tiltedMap: [[String]] =  Array(repeating: Array(repeating: "", count: maps.count), count: maps.count)
        
         for (i,_) in maps.enumerated() {
             let col = maps.getColumn(column: i)
             let tiltedCol = tilt(column: col)
             for (j,item) in tiltedCol.enumerated() {
-                titledMap[j][i] = item
+                tiltedMap[j][i] = item
             }
         }
         
         var result = 0
-        var rowValue = titledMap.count
-        titledMap.forEach { line in
+        var rowValue = tiltedMap.count
+        tiltedMap.forEach { line in
             let count = line.filter{$0 == "O"}.count
             result += count * rowValue
             rowValue -= 1
