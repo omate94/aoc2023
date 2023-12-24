@@ -41,10 +41,11 @@ func main() {
 //    let day = Day11A()
 //    let day = Day11B()
 //    let day = Day13A()
-    let day = Day13B()
+//    let day = Day13B()
 //    let day = Day14A()
 //    let day = Day14B()
 //    let day = Day15A()
+    let day = Day15B()
 //    let day = Day16A()
 //    let day = Day16B()
 

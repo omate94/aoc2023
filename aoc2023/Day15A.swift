@@ -25,7 +25,7 @@ class Day15A {
         return String(result)
     }
     
-    func calculateHash(string: String) -> Int {
+    private func calculateHash(string: String) -> Int {
         let asciiValues: [UInt8] = string.compactMap(\.asciiValue)
         
         let result = asciiValues.reduce(0, { (res, value) in
