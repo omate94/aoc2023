@@ -108,7 +108,7 @@ class Day19A {
         return (worklfows,ratings)
     }
     
-    private func getRatings(string: String) -> Ratings {
+    private func getRatings(string: String) -> Rating {
         var mutableString = string
         mutableString.removeFirst()
         mutableString.removeLast()
@@ -141,7 +141,7 @@ class Day19A {
             }
         }
         
-        return Ratings(x: x, m: m, a: a, s: s)
+        return Rating(x: x, m: m, a: a, s: s)
     }
     
     private func getID(from string: String) -> String {
