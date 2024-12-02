@@ -1,12 +1,4 @@
-//
-//  main.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 04..
-//
-
 import Foundation
-
 
 protocol AoCTest {
     func execute(test: Bool) -> String
@@ -50,7 +42,6 @@ func main() {
 //    let day = Day16B()
 //    let day = Day19A()
     let day = Day21A()
-
 
     let result = day.execute(test: false)
     print("Test result: ", result)
