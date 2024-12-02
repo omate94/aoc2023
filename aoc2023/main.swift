@@ -9,7 +9,7 @@ let time = clock.measure(main)
 print("Test time: ", time)
 
 func main() {
-//    let day = Day1A()
+    let day = Day1A()
 //    let day = Day1B()
 //    let day = Day2A()
 //    let day = Day2B()
@@ -41,7 +41,7 @@ func main() {
 //    let day = Day16A()
 //    let day = Day16B()
 //    let day = Day19A()
-    let day = Day21A()
+//    let day = Day21A()
 
     let result = day.execute(test: false)
     print("Test result: ", result)

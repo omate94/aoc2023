@@ -152,9 +152,9 @@ class Day7B {
 extension Day7B: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            return run(path: "/Users/olahmate/aoc2023/tests/7_test.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2023/7_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/7.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2023/7.txt")
         }
     }
 }

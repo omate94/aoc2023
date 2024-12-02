@@ -79,9 +79,9 @@ class Day8B {
 extension Day8B: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            return run(path: "/Users/olahmate/aoc2023/tests/8b_test.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2023/8b_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/8.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2023/8.txt")
         }
     }
 }

@@ -494,9 +494,9 @@ class Day3B {
 extension Day3B: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            return run(path: "/Users/olahmate/aoc2023/tests/3_test.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2023/3_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/3.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2023/3.txt")
         }
     }
 }

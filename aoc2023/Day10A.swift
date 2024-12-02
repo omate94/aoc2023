@@ -133,11 +133,11 @@ class Day10A {
 extension Day10A: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            let test1Result = run(path: "/Users/olahmate/aoc2023/tests/10a_test_1.txt")
-            let test2Result = run(path: "/Users/olahmate/aoc2023/tests/10a_test_2.txt")
+            let test1Result = run(path: "/Users/olahmate/aoc2023/tests/2023/10a_test_1.txt")
+            let test2Result = run(path: "/Users/olahmate/aoc2023/tests/2023/10a_test_2.txt")
             return "Test 1: \(test1Result), Test 2: \(test2Result)"
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/10.txt")
+            return run(path: "/Users/olahmate/aoc2023/tests/2023/10.txt")
         }
     }
 }
