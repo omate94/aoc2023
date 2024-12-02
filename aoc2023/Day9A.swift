@@ -1,10 +1,3 @@
-//
-//  Day9A.swift
-//  aoc2023
-//
-//  Created by Mate Olah on 2023. 12. 10..
-//
-
 import Foundation
 
 class Day9A {

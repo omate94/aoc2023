@@ -1,10 +1,3 @@
-//
-//  Array+Extensions.swift
-//  aoc2023
-//
-//  Created by Mate Olah on 2023. 12. 11..
-//
-
 import Foundation
 
 extension Array where Element : Collection {

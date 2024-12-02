@@ -1,5 +1,7 @@
 import Foundation
 
+let testPath = "/Users/olahmate/AdventOfCode/tests/2023/"
+
 protocol AoCTest {
     func execute(test: Bool) -> String
 }

@@ -1,9 +1,3 @@
-//
-//  Day1B.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 04..
-//
 
 import Foundation
 
@@ -93,9 +87,9 @@ class Day1B {
 extension Day1B: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            return run(path: "/Users/olahmate/aoc2023/tests/2023/1b_test.txt")
+            return run(path: testPath + "1b_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/2023/1.txt")
+            return run(path: testPath + "1.txt")
         }
     }
 }

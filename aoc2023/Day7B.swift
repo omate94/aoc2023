@@ -1,10 +1,3 @@
-//
-//  Day7B.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 07..
-//
-
 import Foundation
 
 private enum Strength: Int {

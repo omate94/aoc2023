@@ -1,10 +1,3 @@
-//
-//  Day6A.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 06..
-//
-
 import Foundation
 
 private struct Race {

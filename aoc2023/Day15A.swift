@@ -1,10 +1,3 @@
-//
-//  Day15A.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 20..
-//
-
 import Foundation
 
 class Day15A {

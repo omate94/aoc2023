@@ -1,10 +1,3 @@
-//
-//  Day8A.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 08..
-//
-
 import Foundation
 
 private typealias LeftRight = (left: String, right: String)

@@ -1,10 +1,3 @@
-//
-//  Day2A.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 04..
-//
-
 import Foundation
 
 fileprivate struct Game {
@@ -87,9 +80,9 @@ class Day2A {
 extension Day2A: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            return run(path: "/Users/olahmate/aoc2023/tests/2023/2_test.txt")
+            return run(path: testPath + "2_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/2023/2.txt")
+            return run(path: testPath + "2.txt")
         }
     }
 }

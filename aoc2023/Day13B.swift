@@ -1,10 +1,3 @@
-//
-//  Day13B.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 23..
-//
-
 import Foundation
 
 class Day13B {

@@ -1,10 +1,3 @@
-//
-//  Day3A.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 04..
-//
-
 import Foundation
 
 class Day3A {
@@ -232,9 +225,9 @@ class Day3A {
 extension Day3A: AoCTest {
     func execute(test: Bool) -> String {
         if test {
-            return run(path: "/Users/olahmate/aoc2023/tests/2023/3_test.txt")
+            return run(path: testPath + "3_test.txt")
         } else {
-            return run(path: "/Users/olahmate/aoc2023/tests/2023/3.txt")
+            return run(path: testPath + "3.txt")
         }
     }
 }

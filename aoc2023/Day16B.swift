@@ -1,10 +1,3 @@
-//
-//  Day16B.swift
-//  aoc2023
-//
-//  Created by Oláh Máté on 2023. 12. 20..
-//
-
 import Foundation
 
 private enum Direction {
