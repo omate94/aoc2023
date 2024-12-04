@@ -12,6 +12,14 @@ print("Test time: ", time)
 
 func main() {
 //    let day = Day1A()
-//    let result = day.execute(test: false)
-//    print("Test result: ", result)
+//    let day = Day1B()
+//    let day = Day2A()
+//    let day = Day2B()
+//    let day = Day3A()
+//    let day = Day3B()
+//    let day = Day4A()
+    let day = Day4B()
+    
+    let result = day.execute(test: false)
+    print("Test result: ", result)
 }
