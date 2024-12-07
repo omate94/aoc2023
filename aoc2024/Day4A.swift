@@ -1,5 +1,4 @@
 import Foundation
-import aoc2023
 
 class Day4A {
     

@@ -1,5 +1,4 @@
 import Foundation
-import aoc2023
 
 private struct Step: Equatable, Hashable {
     let x: Int
