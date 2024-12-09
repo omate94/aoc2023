@@ -26,7 +26,9 @@ func main() {
 //    let day = Day7A()
 //    let day = Day7B()
 //    let day = Day8A()
-    let day = Day8B()
+//    let day = Day8B()
+//    let day = Day9A()
+    let day = Day9B()
     
     let result = day.execute(test: false)
     print("Test result: ", result)
