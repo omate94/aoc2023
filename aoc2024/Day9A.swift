@@ -28,8 +28,8 @@ class Day9A {
                     }
                 }
             }
-            if let last = files.first {
-                result.append(contentsOf: Array(repeating: startId, count: last))
+            if let file = files.first {
+                result.append(contentsOf: Array(repeating: startId, count: file))
                 files.removeFirst()
                 startId += 1
             }

@@ -36,10 +36,10 @@ class Day8B {
                     antinodes.insert(antenna1)
                     antinodes.insert(antenna2)
                     
-                    var antinode1 = antenna1.mirror(step: antenna2)
+                    let antinode1 = antenna1.mirror(step: antenna2)
                     antinodes.formUnion(findAntinodes(antenna: antenna1, antinode: antinode1, width: width, height: height))
 
-                    var antinode2 = antenna2.mirror(step: antenna1)
+                    let antinode2 = antenna2.mirror(step: antenna1)
                     antinodes.formUnion(findAntinodes(antenna: antenna2, antinode: antinode2, width: width, height: height))
                 }
             }
