@@ -1,10 +1,5 @@
 import Foundation
 
-private struct Position: Hashable {
-    let x: Int
-    let y: Int
-}
-
 class Day11A {
     
     private func run(path: String) -> String {
