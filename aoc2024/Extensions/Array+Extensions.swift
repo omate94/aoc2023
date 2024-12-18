@@ -45,3 +45,13 @@ extension Array where Element: Collection, Element.Index == Int {
         return (mainDiagonal, antiDiagonal)
     }
 }
+
+extension Array where Element: MutableCollection, Element.Index == Int {
+    mutating func replaceColumn(at index: Int, with newColumn: [Element.Element]) {
+        for (rowIndex, newValue) in newColumn.enumerated() {
+            if rowIndex < self.count && index < self[rowIndex].count {
+                self[rowIndex][index] = newValue
+            }
+        }
+    }
+}
